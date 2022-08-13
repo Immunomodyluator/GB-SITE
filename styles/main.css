@@ -1461,4 +1461,248 @@ details[open] .details-angle-right:after {
   color: #f16d7f;
 }
 
+/*CART*/
+.cart-product {
+  margin-top: 90px;
+}
+
+.cart-product-title {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.product-content,
+.product-desc p {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.015em;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.price {
+  margin-right: 95px;
+}
+
+.quantity {
+  margin-right: 76px;
+}
+
+.shipping {
+  margin-right: 86px;
+}
+
+.subtotal {
+  margin-right: 52px;
+}
+
+.card-item {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
+
+.desc-title {
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.card-hr {
+  border: 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.card-box {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.card-desc {
+  align-items: center;
+}
+
+.card-action {
+  margin-right: 15px;
+  color: #c0c0c0;
+  border: 0;
+  background-color: #ffffff;
+}
+
+.card-subtotal {
+  margin-right: 86px;
+}
+
+.card-shipping {
+  margin-right: 117px;
+}
+
+.card-quantity input {
+  padding: 10px 15px;
+  text-align: center;
+  border: 1px solid #c0c0c0;
+  margin-right: 83px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #656565;
+}
+
+.card-price {
+  margin-right: 118px;
+}
+
+.card-desc p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #656565;
+}
+
+.desc-color span {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #575757;
+}
+
+.desc-color {
+  font-weight: 300;
+  color: #6f6e6e;
+}
+
+.card-button {
+  margin-top: 44px;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+
+.card-button button {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  padding: 15px 40px;
+}
+
+.form-product-address,
+.form-product-coupon {
+  flex-direction: column;
+  margin-right: 35px;
+}
+
+.ship-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 15px;
+}
+
+.address-select {
+  width: 355px;
+  height: 45px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #b1b1b1;
+  padding-left: 15px;
+  border: 1px solid #eaeaea;
+}
+
+.address-state,
+.address-postcode {
+  width: 355px;
+  height: 45px;
+  border-radius: 0;
+  border: 1px solid #eaeaea;
+  padding-left: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #b1b1b1;
+  margin-bottom: 20px;
+}
+
+.ship-address-button,
+.ship-coupon-button {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  padding: 10px 15px;
+  width: 115px;
+}
+
+.ship-coupon-button {
+  width: 120px;
+}
+
+.coupon-desc {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.confirm-box {
+  margin: 40px 41px;
+}
+
+.product-confirm {
+  background-color: #f5f3f3;
+  height: 214px;
+}
+
+.confirm-total {
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #4a4a4a;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.confirm-total span {
+  padding-right: 15px;
+}
+
+.confirm-grand__total {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 22px;
+  text-align: right;
+}
+
+.confirm-grand__total span {
+  color: #f16d7f;
+}
+
+.confirm-hr {
+  border: 0;
+  border-bottom: 1px solid #e2e2e2;
+  margin-bottom: 20px;
+}
+
+.confirm-button {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f16d7f;
+  border: 0;
+  padding: 20px 40px;
+}
+
+.product-card-form {
+  margin-bottom: 91px;
+}
+
 /*# sourceMappingURL=main.css.map */
