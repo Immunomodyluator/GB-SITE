@@ -1704,3 +1704,63 @@ details[open] .details-angle-right:after {
 .product-card-form {
   margin-bottom: 91px;
 }
+
+/*
+checkout page
+ */
+
+.billing__box {
+  margin-bottom: 93px;
+}
+
+.billing__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.billing__items__header {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+  margin-bottom: 39px;
+}
+
+.billing__items__title,
+.items__register__title,
+.items__login__title {
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.billing__items__desc,
+.items__register__title span,
+.items__register__desc,
+.items__login__title span {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #b3b2b2;
+}
+
+.billing__items__title {
+  margin-bottom: 10px;
+}
+
+.billing__items__desc {
+  margin-bottom: 30px;
+}
+
+.guest__label,
+.register__label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
