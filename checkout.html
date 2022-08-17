@@ -337,44 +337,87 @@
         <div class="billing__items">
           <div class="billing__items__left">
             <h2 class="billing__items__header">01.&nbsp&nbspShipping Adress</h2>
-            <p class="billing__items__title">Check as a guest or register</p>
-            <p class="billing__items__desc">Register with us for future convenience</p>
-            <label for="guest__input" class="guest__label">
-              <input type="radio" name="choice" id="guest__input" />
-              &nbsp&nbsp checkout as guest
-            </label>
-            <br />
-            <label for="register" class="register__label">
-              <input type="radio" name="choice" id="register" />
-              &nbsp&nbsp register
-            </label>
-            <p class="items__register__title">
-              register and save time<br />
-              <span>Register with us for future convenience</span>
-            </p>
-            <p class="items__register__desc">
-              <i class="fa-solid fa-angles-right"></i>Fast and easy checkout <br />
-              <i class="fa-solid fa-angles-right"></i>Easy access to your order history and status
-            </p>
-            <button class="register__continue-button">Continue</button>
+            <div class="items__left-box">
+              <p class="billing__items__title">Check as a guest or register</p>
+              <p class="billing__items__desc">Register with us for future convenience</p>
+              <label for="guest__input" class="guest__label">
+                <input type="radio" name="choice" id="guest__input" />
+                &nbsp&nbsp CHECKOUT AS GUEST
+              </label>
+              <br />
+              <label for="register" class="register__label">
+                <input type="radio" name="choice" id="register" />
+                &nbsp&nbsp register
+              </label>
+              <p class="items__register__title">register and save time!</p>
+              <p class="items__register__desc">Register with us for future convenience</p>
+              <p class="items__register__desc-link">
+                <i class="fa-solid fa-angles-right fa-2xs"></i>Fast and easy checkout <br />
+                <i class="fa-solid fa-angles-right fa-2xs"></i>Easy access to your order history and status
+              </p>
+              <button class="register__continue-button">Continue</button>
+            </div>
           </div>
           <div class="billing__items__right">
             <div class="items__login__title">
-              Already registed? <br />
+              Already register? <br />
               <span>Please log in below</span>
             </div>
-            <label for="email">
-              EMAIL ADDRESS<span>*</span>
-              <input type="email" name="" id="email" />
-            </label>
-            <label for="password">
-              PASSWORD<span>*</span>
-              <input type="password" name="" id="password" />
-            </label>
+            <form action="" class="checkout__login flex">
+              <label for="checkout__email" class="checkout__email">
+                EMAIL ADDRESS<span> *</span><br />
+                <input type="email" name="" id="checkout__email" />
+              </label>
+              <label for="checkout__password" class="checkout__password">
+                PASSWORD<span> *</span><br />
+                <input type="password" name="" id="checkout__password" />
+              </label>
+            </form>
             <p class="items__login__req">* Required Fileds</p>
             <button class="items__login-button">Log in</button>
-            <a href="#password_recovery">Forgot Password ?</a>
+            <a href="" class="items__login-link">Forgot Password ?</a>
           </div>
+        </div>
+        <div class="billing__items">
+          <h2 class="billing__items__header">02.&nbsp&nbspBILLING INFORMATION</h2>
+        </div>
+        <div class="billing__items">
+          <h2 class="billing__items__header">03.&nbsp&nbspShipping INFORMATION</h2>
+        </div>
+        <div class="billing__items">
+          <h2 class="billing__items__header">04.&nbsp&nbspShipping METHOD</h2>
+        </div>
+        <div class="billing__items">
+          <h2 class="billing__items__header">05.&nbsp&nbspPAYMENT METHOD</h2>
+        </div>
+        <div class="billing__items">
+          <h2 class="billing__items__header">06.&nbsp&nbspOrder Review</h2>
+        </div>
+      </div>
+    </section>
+    <section class="review-subscribe">
+      <div class="container flex">
+        <figure class="review flex">
+          <figure class="review__img"></figure>
+          <figure class="review__text">
+            <figcaption class="review__text__title">
+              “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam
+              condimentum mattis neque sed pretium”
+            </figcaption>
+            <div class="review__text__name">
+              <span class="review__text-name__color">Bin Burhan</span> <br />Dhaka, Bd
+            </div>
+          </figure>
+        </figure>
+        <div class="subscribe">
+          <div class="subscribe__title">SUBSCRIBE</div>
+          <div class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</div>
+          <form class="flex">
+            <label>
+              <input type="text" class="subscribe__input" placeholder="Enter Your Email" />
+            </label>
+            <button class="subscribe__button">Subscribe</button>
+          </form>
         </div>
       </div>
     </section>
